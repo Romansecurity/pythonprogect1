@@ -5,7 +5,7 @@ from aiogram.types import Message
 
 
 router = Router()
-admin = ""
+admin = "-"
 
 @router.message(F.text == "/admin")
 async def admin_panel(message: Message):
